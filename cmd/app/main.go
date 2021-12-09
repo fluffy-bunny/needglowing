@@ -6,6 +6,6 @@ import (
 
 func main() {
 
-	d := utils.GenerateRandomServiceName("hi", 32)
+	d := utils.GenerateRandomServiceName("hello", 32)
 	println("Hello, world." + d)
 }
